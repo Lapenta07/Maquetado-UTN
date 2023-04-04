@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,600;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway' , sans-serif;
+}
+
+h1{
+    color: orange;
+}
+
+p{
+    letter-spacing: 0.1rem;
+}
+
+body{
+    height: 100vh;
+    background-image: url(../assets/pattern.jpg);
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 20rem;
+    align-items: center;
+}
+
+.grid-col-span-3 {
+    grid-column: span 3;
+}
+  
+.grid{
+    display: grid;
+    gap: 1.5rem;
+    row-gap: 3rem;
+    grid-template-columns: 0.7fr 1fr 1fr;
+    width: min(95%, 80rem);
+    margin-inline: auto;
+    background-color: white;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 2.5rem;
+    background-color: rgb(255, 111, 18);
+    margin: 0px 0px;
+    height: 5rem;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1rem;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.nav ul li{
+    border-right: 1px solid white;
+    padding-right: 1rem;
+    
+}
+
+.buscar input{
+    height: 2rem;
+}
+
+.buscar button{
+    height: 2rem;
+    width: 4rem;
+    font-family: "Raleway";
+    font-weight: bolder;
+}
+
+.buscar button:hover{
+    cursor: pointer;
+}
+
+#conteItemsCarrusel{    
+    height: 19rem;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 70rem;
+}
+
+/*.slide{
+    height: 19rem;
+    position: relative;
+}
+
+.tarjetaCarrusel{    
+    width: 100%;
+    
+}
+
+.tarjetaCarrusel img{
+    width: 100%;
+    height: 100%;
+}
+
+.flechasCarrusel{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.fa-solid{
+    color: white;
+}
+
+.conteNumerosdentro{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem;
+    
+}
+
+.conteNumerosdentro i{
+    color: black;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    padding: 0 0.3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}*/
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 0rem 3rem;
+    width: 65%;
+    gap: 1rem;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.menu li{
+    border-bottom: 2px dotted rgb(143, 143, 143);
+}
+
+.primera{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 85%;
+    
+}
+
+.segunda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 85%;
+}
+
+.lampara1{
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+} 
+
+.lampara2{
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+} 
+
+.lampara3{
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+} 
+
+.lampara4{
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+} 
+
+.lampara, h3{
+    margin-bottom: 1rem;
+}
+
+
+.newsletter{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin: 0.5rem 2rem;
+    padding: 1rem 2rem;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px black;
+}
+
+.suscribir{
+    margin-left: 22.5rem;
+    
+}
+
+.sobre{
+    margin-right: 0.3rem;
+}
+
+
+
+.suscribir input{
+    width: 16rem;
+}
+
+.suscribir button{
+    color: black;
+    background-color: none;
+    border: none;
+    font-weight: bolder;
+    font-size: large;
+    
+}
+
+.suscribir button:hover{
+    cursor: pointer;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    height: 10rem;
+    background-color: rgb(240, 240, 240);
+    gap: 2rem;
+}
+
+.direccionHK{
+    border-right: 1px solid black ;
+    padding-right: 2rem;
+}
